@@ -1,219 +1,165 @@
-*{
-    padding: 0;
-    box-sizing: 0;
-    margin: 0;
-}
 
 body{
-    /*
-    background-image: url(./assets/bg-mobile.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    */
-
-    /*background: color image repeat position/size 
-    background: var(--bg-url) no-repeat top center/cover;
-    */
-    background-image: url(Prancheta\ 1.png);
+    background-color: rgba(115, 21, 237, 0.92);
 }
 
-body * {
-    font-family: 'Inter', sans-serif;
-    color: var(--text-color);
-}
-/*
-:root {
-    --text-color: white;
-    --bg-url: url(./assets/bg-mobile.jpg);
-    --stroke-color: rgba(255, 255, 255, 0.5);
-    --surface-color: rgba(255, 255, 255, 0.10);
-    --surface-color-hover: rgba(255, 255, 255, 0.05);
-    --highlight-color: rgba(255, 255, 255, 0.05);
-}
-*/
-
-.nome{
-    font-size: 24px;
-    text-align: center;
-    padding: 5px;
-}
-
-.fale{
-    text-align: center;
-    font-size: 24px;
-    color: white;
-    padding: 5px;
-}
-
-/*
-.light {
-    --text-color: black;
-    --bg-url: url(./assets/bg-mobile-light.jpg);
-    --stroke-color: rgba(0, 0, 0, 0.5);
-    --surface-color: rgba(0, 0, 0, 0.05);
-    --surface-color-hover: rgba(0, 0, 0, 0.02);
-    --highlight-color: rgba(0, 0, 0, 0.10);
-}*/
-
-#container{
-    width: auto;
-    height: auto;
-    margin: auto;
-    margin-top: 56px;
-    padding: 24px;
-}
-
-#profile{
-    text-align: center;
-    padding: 24px;
-}
-
-#profile img {
-    width: 150px;
-    border-radius: 90px;
-}
-
-#profile p {
-    font-weight: 500;
-    line-height: 24px;
-    margin-top: 8px;
-}
-
-/*links- lista*/
-
-ul {
-   list-style: none;
-   display: flex;
-   flex-direction: column;
-   gap: 16px;
-   padding: 24px 0;
-}
-
-
-ul li a{
-    display:flex;
-    justify-content: center;
-
-    padding: 16px 24px;
-
-    border: 1px solid var(--stroke-color);
-    background: var(--surface-color);
-
-    backdrop-filter: blur(4px);
-    --webkit-backdrop-filter: blur(4px);
-    border-radius: 8px;
-
-    text-decoration: none;
-    font-weight: 500;
-    transition: background 0.2s;
-}
-
-/*pseudo-selector
-ul li a:hover {
-    border: 1px solid var(--text-color);
-    background: var(--highlight-color);
-}
-*/
-
-/*social link*/
-#social-links{
-    display: flex;
-    justify-content: center;
-
-    padding: 24px 0;
-
-    font-size: 24px;
-}
-
-#social-links a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 6px;
-
-    transition: background 0.2s;
-    border-radius: 50px;
-}
-
-#social-links a:hover {
-    background: var(--surface-color-hover)
-}
-
-.bt_face{
-    border-radius: 14px;
-    padding: 6px;
-    font-size: 24px;
-    border: none;
-    transition: 0.5s;
-    box-shadow: color(srgb 125 114 107);
-    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.365);
-}
-
-.bt_whats{
-    border-radius: 14px;
-    padding: 6px;
-    font-size: 24px;
-    border: none;
-    transition: 0.5s;
-    box-shadow: color(srgb 125 114 107);
-    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.365);
-}
-
-
-.bt_insta{
-    border-radius: 14px;
-    padding: 6px;
-    font-size: 24px;
-    border: none;
-    transition: 0.5s;
-    box-shadow: color(srgb 125 114 107);
-    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.365);
-}
-
-footer {
-    text-align: center;
-    padding: 20px;
-}
-
-
-/*
-*{
-    padding: 0;
-    box-sizing: 0;
-}
-
-body{
-    background-image:  url(Prancheta\ 1.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-}
-
-
-#prolife{
-    text-align: center;
-    padding: 24px;
-}
-
-#profile img{
-    width: 112px;
-}
-
-#conteiner {
-    width: 360px;
-    height: 712px;
-    margin: auto;
-    margin-top: 56px;
-    padding: 24px;
-}
-
-.cabecalho {
+.meio{
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    padding: auto;
     align-items: center;
-    padding: 16px;
+    /*background-color: red;*/
+    margin: auto;
+    width: auto;
+    height: 3500px;
 }
-*/
+
+.perfil{
+    width: 170px;
+    height: 170px;
+    margin-top: 15px;
+}
+
+.hello{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    font-size: 24px;
+    font-family: "Bebas Neue";
+    font-weight: 400px;
+    color: white;
+    text-shadow:0.1em 0.1em 0.2em black;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao-whats{
+    display: flex;
+    flex-direction: row;
+    margin: 14px;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 270px;
+    height: 80px;
+    font-size: 24px;
+    align-items: center;
+    padding: 24px 24px;
+    border-radius: 17px;
+    background-color: white;
+    border: none;
+    box-shadow: 10px 10px 8px black;
+}
+
+.img_wh{
+    width: 50px;
+    height: 70px;
+    padding: 0px 14px;
+}
+
+.botao-inta{
+    display: flex;
+    flex-direction: row;
+    margin: 14px;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 270px;
+    height: 80px;
+    font-size: 24px;
+    align-items: center;
+    padding: 24px 24px;
+    border-radius: 17px;
+    background-color: white;
+    border: none;
+    box-shadow: 10px 10px 8px black;
+}
+
+.img_int{
+    width: 50px;
+    height: 70px;
+    padding: 0px 14px;
+}
+
+
+.botao-linked{
+    display: flex;
+    flex-direction: row;
+    margin: 14px;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 270px;
+    height: 80px;
+    font-size: 24px;
+    align-items: center;
+    padding: 24px 24px;
+    border-radius: 17px;
+    background-color: white;
+    border: none;
+    box-shadow: 10px 10px 8px black;
+}
+
+.img_linked{
+    width: 50px;
+    height: 70px;
+    padding: 0px 14px;
+}
+
+.botao-git{
+    display: flex;
+    flex-direction: row;
+    margin: 14px;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 270px;
+    height: 80px;
+    font-size: 24px;
+    align-items: center;
+    padding: 24px 24px;
+    border-radius: 17px;
+    background-color: white;
+    border: none;
+    box-shadow: 10px 10px 8px black;
+}
+
+.img_git{
+    width: 50px;
+    height: 70px;
+    padding: 0px 14px;
+}
+
+
+.botao-port{
+    display: flex;
+    flex-direction: row;
+    margin: 14px;
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    width: 270px;
+    height: 80px;
+    font-size: 24px;
+    align-items: center;
+    padding: 24px 24px;
+    border-radius: 17px;
+    background-color: white;
+    border: none;
+    box-shadow: 10px 10px 8px black;
+}
+
+.img_port{
+    width: 50px;
+    height: 70px;
+    padding: 0px 14px;
+}
+
+.final{
+    font-size: 14px;
+    padding: 24px;
+    font-family: "arial";
+}

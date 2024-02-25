@@ -1,74 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Strike&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <title>Alpinista Certo</title>
+    <title>Treelink-Douglas</title>
 </head>
 <body>
-    <div id="container">
-        <div id="profile">
-          <img src="./perfil.jpg" alt="">
+    <main class="meio">
+        <div class="foto">
+            <img class="perfil" src="./imagem/Screenshot_2023-12-13-07-37-39-639_com.instagram 1.svg">
         </div>
-
-        <div class="nome">
-          <p>@alpinistacerto</p>
+        <div>
+            <h2 class="hello">
+                Hello World! <br> Meu nome é Douglas, sou desenvolvedor Web amante de tecnologia
+            </h2>
         </div>
-        <ul>
-        
-        <div class="fale">
-            <p>Fale Conosco</p>
+        <div class="botoes">
+            <button class="botao-whats">
+                <img class="img_wh" src="./imagem/image-whats.svg" alt="">
+                <a href="https://www.youtube.com/watch?v=GNGeFHXpFsk&ab_channel=RodolfinhodaZ"> WhatsApp</a>
+            </button>
+            <button class="botao-inta">
+                <img class="img_int" src="./imagem/image-insta.svg" alt="">
+                Instagram
+            </button>
+
+            <button class="botao-linked">
+                <img class="img_linked" src="./imagem/icons8-linkedin.svg" alt="">
+                <a href="https://www.linkedin.com/in/douglas-medeiros-/">LinkedIn</a>
+            </button>
+
+            <button class="botao-git">
+                <img class="img_git" src="./imagem/image-git.svg" alt="">
+                <a href="https://github.com/Douglasengdev"> GitHub</a>
+            </button>
+
+            <button class="botao-port" onclick="alerta()">
+                <img class="img_port" src="./imagem/image-star.svg" alt="">
+                Portifólio
+            </button>
         </div>
-
-        <button class="bt_whats">
-          <li>
-            <a href="https://wa.me/5521991448427" target="_blank">WhatsApp</a>
-          </li>
-        </button>
-
-        <button class="bt_face">
-          <li>
-            <a href="https://www.facebook.com/davi.abrantesdossantos/" target="_blank">Facebook</a>
-          </li>
-        </button>
-
-        <button class="bt_insta">
-          <li>
-            <a href="https://www.instagram.com/euabrantes_/" target="_blank">instagram</a>
-          </li>
-        </button>
-        </ul>
-
-        <!----
-        <div id=social-links>
-          <a href="https://github.com/Douglasengdev" target="_blank">
-            <ion-icon name="logo-github"></ion-icon>
-          </a>
-  
-          <a href="https://instagram.com/021_dgm?igshid=NzZlODBkYWE4Ng==" target="_blank"></a>
-            <ion-icon name="logo-instagram"></ion-icon>
-          </a>
-  
-          <a href="https://wa.me/5521975542405" target="_blank"></a>
-            <ion-icon name="logo-whatsapp"></ion-icon>
-          </a>
-  
-          <a href="https://linkedin.com/in/douglas-medeiros-/" target="_blank">
-            <ion-icon name="logo-linkedin"></ion-icon>
-          </a>
-        </div>
-        -->
-
-
-        <footer>
-          <p>Feito com amor por <u>Douglas</u> </p>
+        <footer class="final">
+            Feito com <b>amor</b> por <b>Douglas</b>
         </footer>
-      </div>
-      <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </main>
 </body>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script type="text/javascript" src="./script.js"></script>
 </html>
